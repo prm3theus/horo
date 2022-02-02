@@ -1,0 +1,48 @@
+Arguments: 
+  /Users/mgrok/.nvm/versions/node/v14.17.4/bin/node /usr/local/Cellar/yarn/1.22.5/libexec/bin/yarn.js add @gnosis.pm/zodiac
+
+PATH: 
+  /Users/mgrok/opt/miniconda3/bin:/Users/mgrok/opt/miniconda3/condabin:/Users/mgrok/.cabal/bin:/Users/mgrok/.ghcup/bin:/Users/mgrok/.nvm/versions/node/v14.17.4/bin:/opt/local/bin:/opt/local/sbin:/Library/Frameworks/Python.framework/Versions/3.9/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/Postgres.app/Contents/Versions/latest/bin:/Users/mgrok/.cargo/bin
+
+Yarn version: 
+  1.22.5
+
+Node version: 
+  14.17.4
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: ENOSPC: no space left on device, copyfile '/Users/mgrok/Library/Caches/Yarn/v6/npm-caniuse-lite-1.0.30001304-38af55ed3fc8220cb13e35e6e7309c8c65a05559-integrity/node_modules/caniuse-lite/data/features/dommatrix.js' -> '/Users/mgrok/Projects/horo/node_modules/caniuse-lite/data/features/dommatrix.js'
+
+npm manifest: 
+  {
+    "name": "hardhat-project",
+    "devDependencies": {
+      "@nomiclabs/hardhat-ethers": "^2.0.4",
+      "@nomiclabs/hardhat-waffle": "^2.0.2",
+      "chai": "^4.3.6",
+      "ethereum-waffle": "^3.4.0",
+      "ethers": "^5.5.4",
+      "hardhat": "^2.8.3"
+    },
+    "description": "This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, a sample script that deploys that contract, and an example of a task implementation, which simply lists the available accounts.",
+    "version": "1.0.0",
+    "main": "index.js",
+    "directories": {
+      "test": "test"
+    },
+    "dependencies": {},
+    "scripts": {
+      "test": "mocha"
+    },
+    "author": "",
+    "license": "ISC"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
