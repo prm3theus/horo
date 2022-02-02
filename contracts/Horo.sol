@@ -2,19 +2,37 @@ pragma solidity ^0.8.6;
 
 import "@gnosis.pm/zodiac/contracts/core/Module.sol";
 
-contract Horo is Module {
+interface IHoro {
+    function greetings() external returns (string);
+    function reach() external returns (string);
+    function embodied() external returns (string);
+    function gadget() external returns (string);
+    function pod() external returns (string);
+    function ritual() external returns (string);
+    function tempo() external returns (string);
+    function goodbye() external returns (string);
+}
+
+contract Horo is IHoro, Module {
     /*
         Setting up a Horo era. 
         Build your castle, 
         ignite your core, 
         wield adaptitude.
     */
-    constructor(string castle, string core) {
+    constructor(address castle, address core, address futures) {
 
     }
 
     function greetings() returns (string) {
         return "wagmi"
+    }
+
+    /*
+        to reach for futures, POI, or trade settlements
+    */
+    function reach () {
+
     }
 
     // ink
@@ -37,7 +55,7 @@ contract Horo is Module {
     }
 
     // loaded in NFT json of schedule, iching, zodiac, etc.
-    function clockSpeed() {
+    function tempo() {
 
     }
 
